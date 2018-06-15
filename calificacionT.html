@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reciclapp CalificaciónT</title>
+
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    
+    <link rel="stylesheet" href="calificacionU.css">
+  </head>
+  <body>
+    <div class="container-fluid formulario">
+        <div class="container-fluid logo"><img src="logoRRR.jpg" alt=""><h1>ReciclApp</h1></div>    
+        <div class="row">
+            <div><h2>¿Cómo estuvo la entrega?</h2></div>
+            <x-star-rating value="1" number="5" id="rating">
+
+            </x-star-rating>
+            <!-- <div id="estrellasCalificacionU"><img src="estrella.png" alt="" class="estrella1" onmouseover="iluminarEstrella"><img src="estrella.png" alt="" class="estrella2"><img src="estrella.png" alt="" class="estrella3"><img src="estrella.png" alt="" class="estrella4"><img src="estrella.png" alt="" class="estrella5"></div>  -->
+            <center><button onclick="iflow()">Enviar calificación</button></center>
+            <!-- <div><h2>¿Cuál fue el problema?</h2></div>
+            <div class="col-12"><center><select name="" class="selector">
+                    <option value="1">Impuntualidad del socio</option> 
+                    <option value="2">Desacuerdo en el peso del material</option> 
+                    <option value="3">Mal servicio/actitud</option> 
+                    <option value="4">otro</option> 
+                    </select></center> 
+            </div> -->
+            <div id="resultado"></div>
+            <a class="btn" href="mapaT.html"><p>OK</p></a>
+
+
+        
+        </div>
+
+    </div>
+     
+
+    <script src="calificacionU.js"></script>
+    <script>
+        rating.addEventListener('rate', () => {
+            console.log(rating.value);
+        });
+    
+    </script>
+</body>  
+</html>
+

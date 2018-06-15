@@ -1,0 +1,118 @@
+body {
+    background-color: #00b842;
+    font-family: sans-serif;
+}
+
+.logo_div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.button_div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.button {
+    background-color: #6AE83A;
+    border: none;   
+}
+
+.logo {
+    height: 60px;
+}
+
+.ingresa_text_div {
+    display: flex;
+    justify-content: center
+}
+
+.ingresa_text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    flex-wrap: wrap;
+    font: roboto;
+    width: 300px;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.input_div form {
+    width: 300px;
+}
+
+.first_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.second_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.third_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.fourth_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.drop_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 300px;   
+}
+
+.ingresar_button {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    background-color: #6AE83A;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom_text_div {
+    display: flex;
+    justify-content: center
+}
+
+.bottom_text {
+    margin-top: 100px;
+    font-size: 16px;
+    color: white;
+    flex-wrap: wrap;
+    font: roboto;
+    width: 300px;
+}

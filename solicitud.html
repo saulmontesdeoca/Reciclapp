@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reciclapp Solicitud</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="solicitud.css">
+  </head>
+  <body>
+    <div class="container-fluid formulario">
+            <div class="container-fluid logo"><img src="logoRRR.jpg" alt=""><h1>ReciclApp</h1></div>
+            <form action="">   
+                <div class="row">
+                    <div class="col-12 opciones"><h2>Seleccionar el tipo de material a reciclar, cantidad en kilogramos, día de la semana en que pueden pasar a recogerlo a tu domicilio y horario</h2></div>
+                    <div class="col-12 opciones"><center>Material <select name="material" class="selector">
+                        <option value="1"> </option> 
+                        <option value="2">PET</option> 
+                        <option value="3">Aluminio</option> 
+                        <option value="4">Vidrio</option> 
+                        <option value="5">Cartón</option> 
+                        </select></center>
+                    </div>
+                    <div class="col-12 opciones" id="kg"><center>Kg <input class="w-100 mb-4 first_input" type="number" placeholder=""></center></div>
+                    <div class="col-12 opciones"><center>Día <select name="diaRecoger" class="selector">
+                            <option value="1"> </option> 
+                            <option value="2">1</option> 
+                            <option value="3">2</option> 
+                            <option value="4">3</option> 
+                            <option value="5">4</option> 
+                            <option value="6">5</option> 
+                            <option value="7">6</option> 
+                            <option value="8">7</option> 
+                            <option value="9">8</option> 
+                            <option value="10">9</option> 
+                            <option value="11">10</option> 
+                            <option value="12">11</option> 
+                            <option value="13">12</option> 
+                            <option value="14">13</option> 
+                            <option value="15">14</option> 
+                            <option value="16">15</option> 
+                            <option value="17">16</option> 
+                            <option value="18">17</option> 
+                            </select></center> 
+                        </div>
+                        <div class="col-12 opciones"><center>Mes <select name="diaRecoger" class="selector">
+                                <option value="1"> </option> 
+                                <option value="2">Enero</option> 
+                                <option value="3">Febrero</option> 
+                                <option value="4">Marzo</option> 
+                                <option value="5">Abril</option> 
+                                <option value="6">Mayo</option> 
+                                <option value="7">Junio</option> 
+                                <option value="8">Julio</option> 
+                                <option value="9">Agosto</option> 
+                                <option value="10">Septiembre</option> 
+                                <option value="11">Octubre</option> 
+                                <option value="12">Noviembre</option> 
+                                <option value="13">Diciembre</option> 
+                                </select></center> 
+                            </div>
+                    <div class="col-12 opciones"><center>Horario <select name="horarioRecoger" class="selector">
+                            <option value="1"> </option> 
+                            <option value="2">6 a 7</option> 
+                            <option value="3">7 a 9</option> 
+                            <option value="4">9 a 11</option> 
+                            <option value="5">11 a 13</option> 
+                            <option value="6">13 a 15</option> 
+                            <option value="7">15 a 17</option> 
+                            <option value="8">17 a 19</option> 
+                            <option value="9">19 a 21</option> 
+                            <option value="10">21 a 22</option> 
+                        </select></center>
+                    </div>
+                    <a class="btn" href="confirmacion.html" onclick="solicitud()"><p>OK</p></a>
+                </div>
+            </form>
+            <div></div>
+    </div>
+
+    <script type="text/javascript" src="solicitud.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+.cuerpo {
+    background-color: #00b842;
+    font-family: sans-serif;
+}
+
+.encabezado {
+    height: 400px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.superior{
+    margin: 70 auto;
+}
+.logo{
+    background-color: white; 
+    padding: 4px;
+    }
+
+.logo img{
+    height: 46px;
+    display: inline;
+    margin: 4 10px;
+}
+
+.logo h1{
+    display: inline;
+    margin-left: 20%;
+    color: #00b842;
+    -webkit-text-stroke: 1px black;
+}
+
+.ingresa_text_div {
+    display: flex;
+    justify-content: center
+}
+
+.ingresa_text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    flex-wrap: wrap;
+    font: roboto;
+    width: 300px;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.input_div form {
+    width: 300px;
+}
+
+.first_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.second_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.third_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.fourth_input {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.ingresar_button {
+    -webkit-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
+    border: none;
+    height: 50px;
+    background-color: #6AE83A;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom_text_div {
+    display: flex;
+    justify-content: center
+}
+
+.bottom_text {
+    margin-top: 100px;
+    font-size: 16px;
+    color: white;
+    flex-wrap: wrap;
+    font: roboto;
+    width: 300px;
+}
+.checkbox{
+    color: white;
+    margin-top: 3px;
+}
+

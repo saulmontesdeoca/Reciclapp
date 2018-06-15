@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
+    <script type="text/javascript" src="signup.js"> 
+    </script>
+    <title>Signup</title>
+  </head>
+  <body>
+    <!-- <div class="logo_div">
+        <img class="logo" src="leaf_logo.png">
+    </div> -->
+    <div class="btn-group btn-group-toggle button_div" data-toggle="buttons">
+        <label class="btn btn-secondary active button">
+          <input type="radio" name="options" id="myCheck1" autocomplete="off" checked onchange="show_driver_signup()" > Usuario
+        </label>
+        <label class="btn btn-secondary button">
+          <input type="radio" name="options" id="myCheck2" autocomplete="off" onchange="show_driver_signup()"> Socio
+        </label>
+    </div>    
+
+    <div class="ingresa_text_div">
+        <p class="ingresa_text" >Ingresa tu nombre:</p>
+    </div>
+    <div class="input_div">
+        <form>
+            <input class="w-100 mb-4 first_input" type=text placeholder="Nombre">
+            <input class="w-100 mb-4 second_input" type=text placeholder="Apellido">
+        </form>
+    </div>
+    <div class="ingresa_text_div">
+        <p class="ingresa_text" >Ingresa tus datos de usuario:</p>
+    </div>
+    <div class="input_div">
+        <form>
+            <input class="w-100 mb-4 third_input" type=text placeholder="Usuario">
+            <input class="w-100 mb-4 fourth_input" type=text placeholder="Contrasena">
+        </form>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="input_div">
+        <form>
+            <a href="index.html" class="w-100 ingresar_button" type="button" value="Submit" >Ingresar</a>
+
+        </form>
+    </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
